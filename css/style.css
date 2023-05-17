@@ -12,13 +12,20 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+nav{
+  padding: 64px;
+}
+.memory{
+  display: flex;
+  flex-direction:column ;
+  gap: 16px;
+}
+
 .memory small{
   color: #bebebf;
   font-size: 12px;
   
 }
-
-{}
 
 .memory h1{
   font-size: 32px;
@@ -29,9 +36,12 @@ body{
   width: 100%;
   height: 280px;
   object-fit: cover;
-  border-radius: ;
+  border-radius:  8px;
 }
 
-p{
+.memoty p{
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
 
 }
